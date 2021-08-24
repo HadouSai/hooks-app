@@ -13,11 +13,13 @@ import MultiplesCustomHooks from "./components/examples/MultiplesCustomHooks"; *
 /* import { Memorize } from "./components/06-memos/Memorize";
 import { MemoHooks } from "./components/06-memos/MemoHook"; */
 //import { CallbackHook } from "./components/06-memos/CallbackHook";
-import { FatherTask } from "./components/Tarea/FatherTask";
+//import { FatherTask } from "./components/Tarea/FatherTask";
+//import { TodoApp } from "./components/08-useReducer/TodoApp";
+import { MainApp } from "./components/09-useContext/MainApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FatherTask />
+    <MainApp />
   </React.StrictMode>,
   document.getElementById("root")
 );
